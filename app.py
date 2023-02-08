@@ -14,7 +14,7 @@ def index():
 def home():
     return '<h1>Flask homework</h1>'
 
-@app.route('/Uzbekistam')
+@app.route('/uzb')
 def uzb():
     return "Uzbekistan Buyuk Davlat!!!\nUzbekistanni alishmasman Butun Jahonga\nUzbekistan tengdir Uzbekistanga"
 
