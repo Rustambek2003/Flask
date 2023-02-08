@@ -6,12 +6,12 @@ app = Flask(__name__)
 def hello_world():
     return '<h1>Hello world</h1>'
 
-@app.route('/index/203')
+@app.route('/index')
 def index():
-    return 'index '
+    return '<h1>Index route</h1>'
 @app.route('/home')
 def home():
-    return '<h1>Salom</h1>'
+    return '<h1>Home route</h1>'
 
 if __name__ == '__main__':
     app.run()
