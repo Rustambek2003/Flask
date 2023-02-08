@@ -7,6 +7,8 @@ def hello_world():
     return '<h1>Hello world</h1>'
 
 @app.route('/index/203')
+def index():
+    return 'index '
 @app.route('/home')
 def home():
     return '<h1>Salom</h1>'
