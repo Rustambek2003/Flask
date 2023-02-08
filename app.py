@@ -16,7 +16,7 @@ def home():
 
 @app.route('/uzb')
 def uzb():
-    return "Uzbekistan Buyuk Davlat!!!\nUzbekistanni alishmasman Butun Jahonga\nUzbekistan tengdir Uzbekistanga"
+    return "<h1>Uzbekistan Buyuk Davlat!!!\nUzbekistanni alishmasman Butun Jahonga\nUzbekistan tengdir Uzbekistanga</h1>"
 
 if __name__ == '__main__':
     app.run()
