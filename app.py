@@ -8,10 +8,10 @@ def hello_world():
 
 @app.route('/index')
 def index():
-    return '<h1>Index route</h1>'
+    return '<h1>Index: 203</h1>'
 @app.route('/home')
 def home():
-    return '<h1>Home route</h1>'
+    return '<h1>Flask homework</h1>'
 
 if __name__ == '__main__':
     app.run()
